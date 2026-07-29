@@ -1,8 +1,25 @@
 aid: joy
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/joy.png
 name: Joy
-description: Joy is a company surfaced as a portfolio company of 500-global, forerunner-ventures, general-catalyst,
-  obvious-ventures, sierra-ventures and added to the API Evangelist network as a stub for enrichment.
-  This profile is a lead awaiting the enrichment pipeline.
+description: Joy (withjoy.com) is a consumer wedding and event planning platform that
+  gives couples a free personalized wedding website, an all-in-one universal registry,
+  guest list management, digital and printed save-the-dates and invitations, smart
+  RSVP tools, hotel room blocks, and a companion mobile app. The company has since
+  expanded into baby planning with Joy Baby. Joy is a business-to-consumer product
+  and does not publish a public developer API, developer portal, SDKs, or OpenAPI
+  specification; this profile therefore carries identity and link-property metadata
+  and live security probes rather than machine-readable API artifacts.
 url: https://raw.githubusercontent.com/api-evangelist/joy/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -14,11 +31,21 @@ x-backed-by:
 - sierra-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-note: 'Original stub Website joyapp.io is a lapsed domain that now 301-redirects
+  off-host to spam (lodeonline.co.com -> lanuda.com.co); corrected to the live product
+  domain withjoy.com. No public developer API surface exists.'
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Wedding
+- Event Planning
+- Consumer
+- Registry
+- RSVP
+- Mobile App
+- Weddings
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -26,5 +53,22 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/joy-domain-security.yml
 - type: Website
-  url: https://joyapp.io
+  url: https://withjoy.com
+- type: Pricing
+  url: https://withjoy.com/pricing/
+- type: Support
+  url: https://help.withjoy.com
+- type: Blog
+  url: https://withjoy.com/blog/
+- type: TermsOfService
+  url: https://withjoy.com/eula
+- type: PrivacyPolicy
+  url: https://privacy.withjoy.com
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
