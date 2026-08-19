@@ -34,7 +34,7 @@ x-tier-reason: portfolio-lead
 x-note: 'Original stub Website joyapp.io is a lapsed domain that now 301-redirects
   off-host to spam (lodeonline.co.com -> lanuda.com.co); corrected to the live product
   domain withjoy.com. No public developer API surface exists.'
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-19'
 tags:
