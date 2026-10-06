@@ -47,7 +47,7 @@ x-note: 'Original stub Website joyapp.io is a lapsed domain that now 301-redirec
   domain withjoy.com. No public developer API surface exists.'
 specificationVersion: '0.23'
 created: '2026-07-17'
-modified: '2026-07-19'
+modified: '2026-10-06'
 tags:
 - Company
 - Wedding
@@ -64,6 +64,8 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- url: https://withjoy.com/blog/feed/
+  type: BlogRSS
 - type: DomainSecurity
   url: security/joy-domain-security.yml
 - type: Website
